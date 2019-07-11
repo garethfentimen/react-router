@@ -5,7 +5,8 @@ A [route configuration](/docs/Glossary.md#routeconfig) is basically a set of ins
 ```js
 import React from 'react'
 import { render } from 'react-dom'
-import { Router, Route, Link } from 'react-router'
+import { Router, Route } from 'react-router'
+import { Link } from 'react-router-dom'
 
 const App = React.createClass({
   render() {
